@@ -9,7 +9,7 @@ return(
             <p className='info2'>I'm currently pursuing a Master's degree at UCLA studying Data 
             Science in Biomedicine. My BS was also obtained in UCLA, with the Computational and Systems Biology major. </p>
         </div>
-        <img className="picture" src="https://i.imgur.com/VOU2EEl.png"/>
+        <img className="picture" src="https://i.imgur.com/WMEpDkQ.png"/>
     </div>
 )
 }
