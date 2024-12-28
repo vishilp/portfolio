@@ -4,8 +4,9 @@ import styles from './styles.module.css'
 function SocialLinks(){
     return(
         <div className={styles.container}>
-            <h1>Resume</h1>
-            <a href={PDF} target="_blank">Resume</a>
+            <div className={styles.resumecontainer}>
+                <a href={PDF} target="_blank">Resume</a>
+            </div>
             <h2>hello</h2>
         </div>
     )
