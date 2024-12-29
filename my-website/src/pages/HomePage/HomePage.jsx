@@ -1,11 +1,11 @@
 import Intro from "../../components/Intro/intro"
-import SocialLinks from "../../components/SocialLinks/sociallinks"
-
+import Tablist from "../../components/Tablist/Tablist"
 
 function HomePage(){
     return(
         <>
          <Intro/>
+         <Tablist/>
         </>
     )
 }
