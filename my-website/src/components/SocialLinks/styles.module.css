@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
 .container{
-    
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15%;
+}
+
+.resumebutton{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    background-color: white;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    box-shadow: 0px 1px rgb(230, 230, 230);
+}
+
+.resumebutton:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+.link:hover{
+    fill:black;
 }
