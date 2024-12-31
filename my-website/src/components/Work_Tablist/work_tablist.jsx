@@ -1,5 +1,6 @@
 import styles from './styles.module.css'
-import uclaicon from '../../assets/ucla.png'
+import uclaicon from '../../assets/ucla.jpg'
+import uclarecicon from '../../assets/uclarec.jpg'
 
 function Work_tablist(){
     return(
@@ -18,7 +19,17 @@ function Work_tablist(){
                 </div>
             </div>
             <div className={styles.workContainer}>
-
+                <img className={styles.icon} src ={uclarecicon}/>
+                    <div className={styles.textContainer}>
+                        <p className={styles.date}> June 2023 - June 2024</p>
+                        <p className={styles.location}>Bruin Fitness Center (BFIT)</p>
+                        <p className={styles.role}>Fitness Consultant</p>
+                        <ul className={styles.description}>
+                            <li>Provided exceptional customer service and support, addressed client inquiries and concerns promptly, and fostered a positive training environment.</li>
+                            <li>Collaborated in a team environment to meet responsibilities and professional demands, such as monitoring gym members and equipment.</li>
+                            <li>Trained and mentored junior fitness consultants or interns, sharing expertise and best practices to foster professional development and team growth.</li>
+                        </ul>
+                    </div>
             </div>
         </div>
     )

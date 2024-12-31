@@ -6,8 +6,19 @@
     border-radius: 10px;
     border: 1px solid rgb(230, 230, 230);
     box-shadow: 0 1px 3px 1px  rgb(230, 230, 230);
-    
+    position: relative;
 }
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 8.5%; /* Adjust distance from the left edge */
+    width: 1px; /* Line thickness */
+    background-color: rgb(211, 211, 211); /* Line color */
+    z-index: 0; /* Ensures it stays behind other elements */
+  }
 
 .workContainer{
     display: flex;
@@ -15,9 +26,13 @@
     margin-left: 5%;
 }
 
+
 .icon{
     height: 50px;
     width: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(211, 211, 211);
+    z-index: 1; 
 }
 
 .date{
