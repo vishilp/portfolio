@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .container{
     width: 100%;
     background-color: rgb(255, 255, 255);
-    height: 200px;
+    border-radius: 10px;
+    border: 1px solid rgb(230, 230, 230);
+    box-shadow: 0 1px 3px 1px  rgb(230, 230, 230);
+    
 }
 
 .workContainer{
     display: flex;
-    gap: 10px;
     margin-top: 30px;
+    margin-left: 5%;
 }
 
 .icon{
@@ -18,28 +21,38 @@
 }
 
 .date{
-    font-family: "Roboto Flex", sans-serif;
+    font-family: "Rubik", serif;
     font-size: 0.7rem;
+    font-weight: 400;
     color: #a0a0a0;
-    margin: 0
+    margin: 0;
+    margin-left: 4%;
 }
 
 .location{
-    font-family: "Roboto Flex", sans-serif;
-    font-weight: bold;
+    font-family: "Rubik", serif;
+    font-weight: 600;
     margin: 0;
     line-height: 1.2;
+    margin-left: 4%;
 }
 
 .role{
-    font-family: "Roboto Flex", sans-serif;
+    font-family: "Rubik", serif;
+    font-weight: 400;
     font-size: 0.85rem;
     color: #a0a0a0;
     margin: 0;
+    margin-left: 4%;
 }
 
 .description{
-    font-family: sans-serif;
-    font-size: 0.8rem;
-    margin:0;
+    font-family: "Rubik", serif;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    width: 80%;
+}
+
+li{
+    margin-top: 10px
 }

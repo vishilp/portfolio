@@ -11,8 +11,9 @@ function Work_tablist(){
                     <p className={styles.location}>University of California, Los Angeles</p>
                     <p className={styles.role}>Software Developer</p>
                     <ul className={styles.description}>
-                        <li>Developed utilizing Python and the Streamlit framework. Focused on organizing the code to allow future developers to update the tool with minimal effort.</li>
-                        <li>Showcases an extensive directory of molecular signatures from leading databases like MSigDB and Enrichr. </li>
+                        <li>Developed SaVanT, a Python based bioinformatics tool use to visualize the expression of molecular signatures across multiple samples.</li>
+                        <li>The objective of the tool was to utilize statistical mechanisms to aid a priori clinical patient diagnosis.</li>
+                        <li>Collaborated with cross-functional teams, including bioinformaticians and software engineers, to refine and enhance tool functionality based on user feedback.</li>
                     </ul>
                 </div>
             </div>
