@@ -4,7 +4,7 @@ import Tablist from "../../components/Tablist/Tablist"
 function HomePage(){
     return(
         <>
-        <div style={{marginBottom: '4vh', marginTop: '4vh'}}>
+        <div style={{marginBottom: '4vh', marginTop: '6vh'}}>
             <Intro/>
         </div>
          <Tablist/>
