@@ -5,6 +5,7 @@ import { useState } from 'react'
 
 function Tablist(){
     const [activeTab, setActiveTab] = useState("Work")
+
     const setWork = () => {
         setActiveTab("Work")
     }
@@ -14,8 +15,10 @@ function Tablist(){
     return(
         <>
         <div className={styles.container}>
-            <button className={styles.button} onClick={setWork}>Work</button>
-            <button className={styles.button} onClick={setEducation}>Education</button>
+            <button className={`${styles.button} ${activeTab === "Work" ? styles.active : ""}`} 
+            onClick={setWork}>Work</button>
+            <button className={`${styles.button} ${activeTab === "Education" ? styles.active : ""}`}
+            onClick={setEducation}>Education</button>
         </div>
         {activeTab === "Work" ? <Work_tablist/> : <Education_tablist/>}
         </>
