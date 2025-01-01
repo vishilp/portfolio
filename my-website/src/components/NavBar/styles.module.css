@@ -1,5 +1,11 @@
 .navbar{
-    margin-top: 2vh;
+    top:0;
+    position: sticky;
+    z-index: 1000; /* ensure that it stays above all other elements */
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .navbarlinks{
