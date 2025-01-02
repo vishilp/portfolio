@@ -23,11 +23,11 @@
 }
 
 .resumebutton:hover{
-    background-color: var(--hovercolor)
+    background-color: var(--buttonhovercolor)
 }
 
 .link:hover{
-    fill:black;
+    fill: var(--hovercolor)
 }
 
 .link{

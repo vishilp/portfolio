@@ -5,7 +5,8 @@
   background-color: #ffffff;
   --bordercolor: rgb(230, 230, 230);
   --containershadow: 0 1px 3px 1px  rgb(230, 230, 230);
-  --hovercolor: rgb(245, 245, 245);
+  --buttonhovercolor: rgb(245, 245, 245);
+  --hovercolor: color:rgb(54, 54, 54);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,9 +20,10 @@ html[data-theme='dark'] {
   --color: #ffffff;
   --background-color: #030712;
   background-color: #030712;
-  --bordercolor: rgb(68, 68, 68);
+  --bordercolor: #1f242b;
   --containershadow: none;
-  --hovercolor: rgba(51, 52, 53, 0.7);
+  --buttonhovercolor: rgba(36, 46, 56, 0.7);
+  --hovercolor: white;/*for social icons and text*/
 }
 
 
