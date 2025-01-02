@@ -6,6 +6,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--background-color);
+    color: var(--color)
 }
 
 
@@ -17,7 +19,6 @@
 }
 
 .hi{
-    color:black;
     font-family: "PT Serif", "Chicle", serif;
     font-weight: 700;
     font-size: 3rem;
