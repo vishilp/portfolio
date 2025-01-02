@@ -2,6 +2,7 @@ import './App.css'
 import HomePage from './pages/HomePage/HomePage'
 import { Routes, Route } from 'react-router-dom'
 import NavBar from './components/NavBar/NavBar'
+import ProjectPage from './pages/ProjectPage/ProjectPage'
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <main className='main-content'>
         <Routes>
           <Route path="/" element = {<HomePage/>}></Route>
-          <Route path="/projects" element = {<HomePage/>}></Route>
+          <Route path="/projects" element = {<ProjectPage/>}></Route>
           <Route path="/blog" element = {<HomePage/>}></Route>
           <Route path="/contact" element = {<HomePage/>}></Route>
         </Routes>
