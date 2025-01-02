@@ -1,0 +1,12 @@
+.header{
+    color: black;
+    font-family: "PT Serif", "Chicle", serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.form{
+    margin-bottom: 10vh;
+}

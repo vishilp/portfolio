@@ -1,0 +1,16 @@
+.container{
+}
+
+.form{
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+}
+
+.row1{
+    width: 100%;
+}
+
+.row2{
+    flex:1;
+    height: 100px;
+}
