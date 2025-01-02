@@ -20,7 +20,7 @@ function Work_tablist(){
             </div>
             <div className={styles.workContainer}>
                 <img className={styles.icon} src ={uclarecicon}/>
-                    <div className={styles.textContainer}>
+                    <div className={styles.textContainer} style={{marginBottom: "20px"}}>
                         <p className={styles.date}> June 2023 - June 2024</p>
                         <p className={styles.location}>Bruin Fitness Center (BFIT)</p>
                         <p className={styles.role}>Fitness Consultant</p>
