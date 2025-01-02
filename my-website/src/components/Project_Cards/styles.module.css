@@ -1,19 +1,24 @@
 .container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    gap: 20px;
 }
 
 .projectsquare{
     display: flex;
     flex-direction: column;
-    flex: 1;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     border: 1px solid rgb(230, 230, 230);
     box-shadow: 0 1px 3px 1px  rgb(230, 230, 230);
+    
+}
+
+@media (max-width: 767px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .cardholder{
@@ -44,6 +49,7 @@
 .tools{
     display: flex;
     gap: 5px;
+    flex-wrap: wrap;
 }
 
 .tool{
