@@ -5,10 +5,12 @@ import Tablist from "../../components/Tablist/Tablist"
 function HomePage(){
     return(
         <>
-        <div style={{marginBottom: '4vh', marginTop: '2vh'}}>
+        <div style={{marginBottom: '6vh', marginTop: '2vh'}}>
             <Intro/>
         </div>
-         <Tablist/>
+        <div style={{marginBottom: '6vh'}}>
+            <Tablist/>
+        </div>
          <Featured_Projects/>
         </>
     )
