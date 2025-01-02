@@ -11,7 +11,9 @@ function HomePage(){
         <div style={{marginBottom: '6vh'}}>
             <Tablist/>
         </div>
-         <Featured_Projects/>
+        <div style={{marginBottom: '10vh'}}>
+            <Featured_Projects/>
+        </div>
         </>
     )
 }
