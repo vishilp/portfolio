@@ -2,10 +2,10 @@
 .container{
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(230, 230, 230);
-    border: 1px solid rgb(230, 230, 230);
+    background-color: var(--tablistcolor);
+    border: 1px solid var(--tablistcolor);
     border-radius: 5px;
-    box-shadow: 0px 1px 3px rgb(230, 230, 230);
+    box-shadow: 0px 1px 3px var(--tablistcolor);
     margin-bottom: 10px;
 }
 
@@ -18,14 +18,14 @@
     font-family: "Roboto Flex", sans-serif;
     font-weight: 600;
     font-size: 0.8rem;
-    color:rgb(112, 112, 112);
+    color:rgb(165, 165, 165);
     background-color: white;
-    border: 1px solid rgb(230, 230, 230);
+    border: 1px solid var(--tablistcolor);
     border-radius: 5px;
-    background-color: rgb(230, 230, 230);
+    background-color: var(--tablistcolor);
 }
 
 .active{
-    background-color: white;
-    color: black;
+    background-color: var(--background-color);
+    color: var(--color);
 }

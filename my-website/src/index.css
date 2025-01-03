@@ -8,6 +8,7 @@
   --buttonhovercolor: rgb(245, 245, 245);
   --hovercolor: color:rgb(54, 54, 54);
   --navbarcolor: rgba(255, 255, 255, 0.8);
+  --tablistcolor: rgb(238, 238, 238);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,6 +27,7 @@ html[data-theme='dark'] {
   --buttonhovercolor: rgba(36, 46, 56, 0.7);
   --hovercolor: white;/*for social icons and text*/
   --navbarcolor: rgba(3, 7, 18, 0.8);
+  --tablistcolor: #1f242b;
 }
 
 
