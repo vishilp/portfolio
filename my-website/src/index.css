@@ -10,6 +10,7 @@
   --navbarcolor: rgba(255, 255, 255, 0.8);
   --tablistcolor: rgb(238, 238, 238);
   --tablistbullets: #555555;
+  --pictureshadow: 0px 3px 5px 4px rgb(194, 194, 194);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,6 +31,7 @@ html[data-theme='dark'] {
   --navbarcolor: rgba(3, 7, 18, 0.8);
   --tablistcolor: #1f242b;
   --tablistbullets: #cecece;
+  --pictureshadow: none;
 }
 
 
