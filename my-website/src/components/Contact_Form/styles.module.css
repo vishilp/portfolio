@@ -38,6 +38,16 @@
     font-family: "Rubik", serif;
     font-size: 0.9rem;
     background-color: var(--background-color);
-    resize: none;
     color: var(--color);
+    resize: none;
+    height: 10vh;
+}
+
+.button{
+    display: flex;
+    margin-top: 30px;
+}
+
+.submit{
+    flex:1;
 }
