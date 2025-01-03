@@ -7,6 +7,7 @@
   --containershadow: 0 1px 3px 1px  rgb(230, 230, 230);
   --buttonhovercolor: rgb(245, 245, 245);
   --hovercolor: color:rgb(54, 54, 54);
+  --navbarcolor: rgba(255, 255, 255, 0.8);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,6 +25,7 @@ html[data-theme='dark'] {
   --containershadow: none;
   --buttonhovercolor: rgba(36, 46, 56, 0.7);
   --hovercolor: white;/*for social icons and text*/
+  --navbarcolor: rgba(3, 7, 18, 0.8);
 }
 
 
