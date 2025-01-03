@@ -7,10 +7,10 @@
 .projectsquare{
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--background-color);
     border-radius: 10px;
-    border: 1px solid rgb(230, 230, 230);
-    box-shadow: 0 1px 3px 1px  rgb(230, 230, 230);
+    border: 1px solid var(--bordercolor);
+    box-shadow: var(--containershadow)
     
 }
 
@@ -22,7 +22,7 @@
 }
 
 .cardholder{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--background-color);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -36,13 +36,14 @@
     font-weight: 600;
     margin-top: 25px;
     margin-bottom: 8px;
+    color: var(--color);
 }
 
 .description{
     font-family: "Rubik", serif;
     font-size: 0.8rem;
     font-weight: 400;
-    color: #6b6b6b;
+    color: var(--tablistbullets);
     margin: 0;
 }
 
@@ -53,20 +54,21 @@
 }
 
 .tool{
-    background-color: #ebebeb;
+    background-color: var(--bordercolor);
     border-radius: 50px;
     font-family: "Rubik", serif;
     font-size: 0.7rem;
     font-weight: 500;
-    color: #000000;
+    color: var(--color);
     padding-left: 5px;
     padding-right: 5px;
-    
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .sourceCode{
-    color: white;
-    background-color: #000000;
+    color: var(--background-color);
+    background-color: var(--color);
     border: none;
     padding: 10px;
     border-radius: 10px;
@@ -86,5 +88,5 @@
     margin-top: 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-shadow: 0px 3px 5px 4px rgb(194, 194, 194);
+    box-shadow: var(--pictureshadow)
 }
