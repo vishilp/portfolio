@@ -45,9 +45,20 @@
 
 .button{
     display: flex;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .submit{
     flex:1;
+    color: var(--background-color);
+    background-color: var(--color);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Rubik", serif;
+    font-size: 0.9rem;
+}
+
+::placeholder{
+    color: #9e9e9e;
 }

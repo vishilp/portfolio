@@ -9,8 +9,8 @@ function Work_tablist(){
                 <img className={styles.icon} src ={uclaicon}/>
                 <div className={styles.textContainer}>
                     <p className={styles.date}> Sept 2023 - Sept 2024</p>
-                    <p className={styles.location}>University of California, Los Angeles</p>
-                    <p className={styles.role}>Software Developer</p>
+                    <p className={styles.location}>Pellegrini Lab (UCLA)</p>
+                    <p className={styles.role}>Student Software Developer</p>
                     <ul className={styles.description}>
                         <li>Developed SaVanT, a Python based bioinformatics tool use to visualize the expression of molecular signatures across multiple samples.</li>
                         <li>The objective of the tool was to utilize statistical mechanisms to aid a priori clinical patient diagnosis.</li>

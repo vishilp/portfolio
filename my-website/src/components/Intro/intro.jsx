@@ -6,9 +6,8 @@ return(
     <div className={styles.container}> 
         <div className={styles.textcontainer}>
             <h1 className={styles.hi}>hi, i'm vishil👋</h1>
-            <p className={styles.info1}>22 year old data science grad student at UCLA</p>
-            <p className={styles.info2}>I tinker with fun personal projects, lift heavy circles,
-                and ocassionally indulge in donuts and cookies.
+            <p className={styles.info1}>Data science grad student at UCLA</p>
+            <p className={styles.info2}>Software Developer that enjoys learning tools and technologies through diverse personal projects
             </p>
             <SocialLinks/>
         </div>
