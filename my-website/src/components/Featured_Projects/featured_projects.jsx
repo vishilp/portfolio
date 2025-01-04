@@ -10,8 +10,9 @@ function Featured_Projects(){
             <div className={styles.header}>
                 <h1 className={styles.headertext}>featured projects</h1>
                 <div className={styles.linkcontainer}>
-                    <Link to="/projects" className={styles.link} >view more</Link>
-                    <FaArrowRight className={styles.arrow} size= "16px"/>
+                    <Link to="/projects" className={styles.link} >view more
+                        <FaArrowRight className={styles.arrow} size= "16px"/>
+                    </Link>
                 </div>
             </div>
             <div className={styles.projects}>
