@@ -10,8 +10,7 @@ function BlogList(){
                     <p className={styles.date}>January 3, 2025</p>
                 </div>
                 <div className={styles.row2}>
-                    <p className={styles.info}>The struggles and obstacles I faced creating a tool that automated finding property square footage for a 
-                        small business.</p>
+                    <p className={styles.info}>Sometimes you must travel down a very complicated and frustrating route to find a solution that is right in front of your face.</p>
                 </div>
             </Link>
         </div>

@@ -24,7 +24,8 @@ function RealtorBlogPage(){
                 As a result, he asked me if I knew any way to automate it, preferably with no cost. Despite not having experience in web-scraping, I figured it would be a fun project. I was definitely wrong. 
                 </p>
                 <h1 className={styles.contenttitle}>Project Beginnings</h1>
-                <p></p>
+                <p className={styles.description}>The first step was to read documentation on the Google Sheets API. Given an excel sheet with rows of house addresses, I needed to look up each house, find their sqft, and then write it onto a 
+                    specific column in the excel sheet. Once the api was connected, I started reviewing videos on web-scraping. It turns out I needed to use browser automation frameworks like selenium and playwright. </p>
             </div>
         </div>
     )
