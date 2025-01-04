@@ -5,6 +5,7 @@
     box-shadow: var(--containershadow);
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 }
 
 .row1{
