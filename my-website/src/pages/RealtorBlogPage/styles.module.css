@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     color:rgb(165, 165, 165);
+    margin-top: 3vh;
 }
 
 .arrow{
@@ -21,4 +22,51 @@
 .backbutton:hover .link,
 .backbutton:hover .arrow{
     color: var(--hovercolor);
+}
+
+.piccontainer{
+    
+    display: flex;
+    justify-content: center;
+    padding-top:4vh;
+    background-color: var(--background-color);
+}
+
+.picture{
+    width: 90%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 8px 6px -6px var(--color)
+}
+
+
+.title{
+    color: var(--color);
+    font-family: "PT Serif", "Chicle", serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.date{
+    font-family: "Rubik", serif;
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: #a0a0a0;
+}
+
+.description{
+    color: var(--tablistbullets);
+    font-family: "Rubik", serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.contenttitle{
+    font-family: "Rubik", serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--color)
 }
