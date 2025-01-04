@@ -1,0 +1,42 @@
+.blog{
+    background-color:var(--background-color);
+    border-radius: 10px;
+    border: 1px solid var(--bordercolor);
+    box-shadow: var(--containershadow);
+    display: flex;
+    flex-direction: column;
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 15px;
+}
+
+.row2{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 15px;
+}
+
+.title{
+    color: var(--color);
+    font-family: "Rubik", serif;
+    font-weight: 600;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.date{
+    color: var(--color);
+    font-family: "Rubik", serif;
+}
+
+.info{
+    color: var(--tablistbullets);
+    margin-top:0;
+    font-family: "Rubik", serif;
+}
